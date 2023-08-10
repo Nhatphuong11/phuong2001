@@ -1,0 +1,42 @@
+.container{
+    background-color: rgb(165, 63, 80);
+  }
+  .item-box{
+    display:flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+  }
+  .item-element{
+    width:200px;
+    height: 100px;
+    background-image: linear-gradient(to right,purple, rgb(172, 107, 172));
+    border: 1px solid pink;
+    border-radius: 7px;
+    color: #4f1d1d;
+  }
+  
+  
+  .textarea{
+    background-color: gainsboro;
+    border: 1px solid blue;
+    border-radius: 7px;
+  }
+  .element-textarea{
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  .item-btn{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .btn{
+    background-color: rgb(113, 32, 94);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: aliceblue;
+    margin-bottom: 30px;
+  }
